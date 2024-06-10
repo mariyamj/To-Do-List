@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+  }
+
+
+body{
+    background-image: url(clock.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#content{
+    margin: 5%;
+    padding: 25px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(109, 109, 109);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head i{
+    padding-top:27px ;
+  font-size: x-large;
+}
+
+.day{
+    text-align: center;
+}
+
+.day ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 42px 0 0;
+    color: black;
+}
+
+.task div{
+    margin: 5px;
+    background-color:black;
+    padding: 3px 15px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon{
+    width: 80px;
+    text-align: center;
+    padding: 15px 10px;
+    font-size:x-large;
+}
+
+#newTask{
+    background-color: transparent;
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left:60px;
+    border-width: 0 0 3px 0;
+    text-align: center;
+}
